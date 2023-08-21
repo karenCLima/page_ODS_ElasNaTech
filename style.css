@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 251, 251);
+}
+
+body h1,p,ol{
+    margin: 10px 10px;
+}
+
+.poster{
+    margin: 0;
+    padding: 0;
+    max-height: 300px;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+ol{
+    margin-left: 50px;
+    list-style-type: decimal;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgb(122, 205, 232);
+}
+
+.footer p,a{
+    background-color: rgb(122, 205, 232); 
+}
